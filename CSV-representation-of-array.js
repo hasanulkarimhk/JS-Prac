@@ -5,4 +5,8 @@ const inputArray = [
     [30, 31, 32, 33, 34]
 ];
 
-const outputStirng = in
+const outputString = inputArray.map(row => row.join(',')).join("\n+");
+
+console.log(outputString);
+
+// This code works
